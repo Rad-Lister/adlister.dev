@@ -32,7 +32,7 @@ if(Input::has('title')) {
 			<h2>Make a new ad</h2>
 
 			<label>Title</label>
-		    <input name="title" class="form-control" id="ad_title" placeholder="characters only" required>
+		    <input name="title" class="form-control entry_fields" id="ad_title" placeholder="characters only" required>
 		    
 		    <label>Price</label>
 		    <input name="price" class="form-control" id="ad_price" type="number" min="0" placeholder="numbers only" required>
